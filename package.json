@@ -21,6 +21,7 @@
 		"typecheck": "tsc -p ./tsconfig.json"
 	},
 	"dependencies": {
+		"@alicloud/slb20140515": "2.0.2",
 		"ali-oss": "^6.17.1"
 	},
 	"devDependencies": {
