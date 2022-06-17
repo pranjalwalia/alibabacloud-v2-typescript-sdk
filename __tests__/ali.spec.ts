@@ -11,7 +11,14 @@ describe('unit tests for ali-wrapper', (): void => {
 
 	describe('Test Suite: Check for Instantiation of correct modules at root level', (): void => {
 		test('should bind the correct modules', (): void => {
-			const expectedModules = ['_accessKeyId', '_accessKeySecret', 'oss'];
+			const expectedModules = [
+				'_accessKeyId',
+				'_accessKeySecret',
+				'oss',
+				'slb',
+				'rds',
+				'nosql',
+			];
 			expect(Object.keys(instance)).toEqual(
 				expect.arrayContaining(expectedModules)
 			);
