@@ -18,7 +18,7 @@ export default class AliCloud {
 		this._accessKeyId = accessKeyId;
 		this._accessKeySecret = accessKeySecret;
 
-		this.oss = new Oss(accessKeyId, accessKeySecret, 'oss-cn-hangzhou');
+		this.oss = new Oss(accessKeyId, accessKeySecret, 'oss-ap-south-1');
 		this.slb = new Slb(accessKeyId, accessKeySecret, 'cn-hangzhou'); //slb.aliyuncs.com
 		this.rds = new Rds(accessKeyId, accessKeySecret, 'cn-hangzhou'); //rds.aliyuncs.com
 		this.nosql = new Nosql(accessKeyId, accessKeySecret, 'cn-hangzhou'); //mongodb.aliyuncs.com
