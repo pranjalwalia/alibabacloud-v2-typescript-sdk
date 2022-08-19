@@ -8,11 +8,11 @@ import {
 const { accessKeyId, accessKeySecret } = process.env;
 
 const instance = new AliCloud(
-	accessKeyId || 'LTAI5t6qJNPkyRb6srqM8Mxk',
-	accessKeySecret || 'T1evDHwVE56JLera3Q0TaEWR6pK1PP'
+	accessKeyId || 'key',
+	accessKeySecret || 'secret'
 );
 /*
-Relevant Links:
+Relevant Links:dds-gs58537d0d9724c4
     https://next.api.aliyun.com/document/Dds/2015-12-01/CreateDBInstance
     https://www.alibabacloud.com/help/doc-detail/71901.html
 */
