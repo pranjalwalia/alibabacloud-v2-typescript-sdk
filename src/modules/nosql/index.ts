@@ -12,7 +12,7 @@ import {
 } from './interfaces';
 import { ddsRegions } from './utils';
 
-class Client extends BaseModule {
+class Nosql extends BaseModule {
 	private _client: Dds20151201;
 
 	/**
@@ -79,4 +79,4 @@ class Client extends BaseModule {
 	}
 }
 
-export default Client;
+export default Nosql;

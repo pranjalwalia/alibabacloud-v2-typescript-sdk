@@ -14,7 +14,7 @@ import {
 } from './interfaces';
 import { rdsRegions } from './utils';
 
-class Client extends BaseModule {
+class Rds extends BaseModule {
 	private _client: Rds20140815;
 
 	/**
@@ -94,4 +94,4 @@ class Client extends BaseModule {
 	}
 }
 
-export default Client;
+export default Rds;
