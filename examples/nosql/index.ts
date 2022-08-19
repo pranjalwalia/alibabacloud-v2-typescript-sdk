@@ -1,9 +1,5 @@
 require('dotenv').config();
 import AliCloud from '../../src';
-import {
-	ICreateDBInstance,
-	IDescribeDBInstances,
-} from '../../src/modules/nosql/interfaces';
 
 const { accessKeyId, accessKeySecret } = process.env;
 
