@@ -1,12 +1,16 @@
+require('dotenv').config();
 import AliCloud from '../../src';
-
-const instance = new AliCloud('key', 'secret');
+const { accessKeyId, accessKeySecret } = process.env;
+const instance = new AliCloud(
+	accessKeyId || 'key',
+	accessKeySecret || 'secret'
+);
 
 /*
 Relevant Links:
     1. console: https://rdsnext.console.aliyun.com/rdsList/cn-hangzhou/basic
     2. RDS instance attributes: https://next.api.alibabacloud.com/document/Rds/2014-08-15/DescribeDBInstanceAttribute
-    3. RDS instance types: https://help.aliyun.com/document_detail/276975.htm?spm=a2c4g.11186623.0.0.50d36b92acU0DZ#concept-2096487
+    3. RDS instance types: https://help.aliyun.com/document_detail/276975.htm
 */
 
 const instanceOperations = {
