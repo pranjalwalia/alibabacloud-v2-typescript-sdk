@@ -21,6 +21,8 @@
 	},
 	"dependencies": {
 		"@alicloud/dds20151201": "1.0.3",
+		"@alicloud/eci20180808": "2.0.1",
+		"@alicloud/ecs20140526": "2.1.0",
 		"@alicloud/rds20140815": "2.0.7",
 		"@alicloud/slb20140515": "2.0.2",
 		"ali-oss": "^6.17.1",

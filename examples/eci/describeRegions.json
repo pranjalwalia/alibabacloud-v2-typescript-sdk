@@ -1,0 +1,172 @@
+{
+	"RequestId": "E83FB917-08C8-5EF0-A973-518683EB1D6F",
+	"Regions": [
+		{
+			"RecommendZones": ["cn-hangzhou-h", "cn-hangzhou-i", "cn-hangzhou-j"],
+			"RegionId": "cn-hangzhou",
+			"RegionEndpoint": "eci.aliyuncs.com",
+			"Zones": [
+				"cn-hangzhou-h",
+				"cn-hangzhou-i",
+				"cn-hangzhou-j",
+				"cn-hangzhou-e",
+				"cn-hangzhou-f",
+				"cn-hangzhou-g"
+			]
+		},
+		{
+			"RecommendZones": ["cn-shanghai-l", "cn-shanghai-m", "cn-shanghai-n"],
+			"RegionId": "cn-shanghai",
+			"RegionEndpoint": "eci.aliyuncs.com",
+			"Zones": [
+				"cn-shanghai-m",
+				"cn-shanghai-n",
+				"cn-shanghai-e",
+				"cn-shanghai-g",
+				"cn-shanghai-f",
+				"cn-shanghai-a",
+				"cn-shanghai-b",
+				"cn-shanghai-c",
+				"cn-shanghai-d",
+				"cn-shanghai-l"
+			]
+		},
+		{
+			"RecommendZones": ["cn-qingdao-b", "cn-qingdao-c"],
+			"RegionId": "cn-qingdao",
+			"RegionEndpoint": "eci.cn-qingdao.aliyuncs.com",
+			"Zones": ["cn-qingdao-b", "cn-qingdao-c"]
+		},
+		{
+			"RecommendZones": ["cn-beijing-j", "cn-beijing-i", "cn-beijing-l"],
+			"RegionId": "cn-beijing",
+			"RegionEndpoint": "eci.aliyuncs.com",
+			"Zones": [
+				"cn-beijing-h",
+				"cn-beijing-l",
+				"cn-beijing-f",
+				"cn-beijing-g",
+				"cn-beijing-j",
+				"cn-beijing-i",
+				"cn-beijing-c",
+				"cn-beijing-d",
+				"cn-beijing-e",
+				"cn-beijing-k"
+			]
+		},
+		{
+			"RecommendZones": [
+				"cn-zhangjiakou-a",
+				"cn-zhangjiakou-c",
+				"cn-zhangjiakou-b"
+			],
+			"RegionId": "cn-zhangjiakou",
+			"RegionEndpoint": "eci.cn-zhangjiakou.aliyuncs.com",
+			"Zones": ["cn-zhangjiakou-c", "cn-zhangjiakou-b", "cn-zhangjiakou-a"]
+		},
+		{
+			"RecommendZones": ["cn-huhehaote-a", "cn-huhehaote-b"],
+			"RegionId": "cn-huhehaote",
+			"RegionEndpoint": "eci.cn-huhehaote.aliyuncs.com",
+			"Zones": ["cn-huhehaote-b", "cn-huhehaote-a"]
+		},
+		{
+			"RecommendZones": ["cn-shenzhen-e", "cn-shenzhen-d"],
+			"RegionId": "cn-shenzhen",
+			"RegionEndpoint": "eci.aliyuncs.com",
+			"Zones": [
+				"cn-shenzhen-d",
+				"cn-shenzhen-e",
+				"cn-shenzhen-a",
+				"cn-shenzhen-b",
+				"cn-shenzhen-c"
+			]
+		},
+		{
+			"RecommendZones": ["cn-guangzhou-a", "cn-guangzhou-b"],
+			"RegionId": "cn-guangzhou",
+			"RegionEndpoint": "eci.cn-guangzhou.aliyuncs.com",
+			"Zones": ["cn-guangzhou-a", "cn-guangzhou-b"]
+		},
+		{
+			"RecommendZones": ["cn-chengdu-a", "cn-chengdu-b"],
+			"RegionId": "cn-chengdu",
+			"RegionEndpoint": "eci.cn-chengdu.aliyuncs.com",
+			"Zones": ["cn-chengdu-a", "cn-chengdu-b"]
+		},
+		{
+			"RecommendZones": ["cn-hongkong-b"],
+			"RegionId": "cn-hongkong",
+			"RegionEndpoint": "eci.aliyuncs.com",
+			"Zones": ["cn-hongkong-b", "cn-hongkong-c"]
+		},
+		{
+			"RecommendZones": [
+				"ap-southeast-1a",
+				"ap-southeast-1c",
+				"ap-southeast-1b"
+			],
+			"RegionId": "ap-southeast-1",
+			"RegionEndpoint": "eci.aliyuncs.com",
+			"Zones": ["ap-southeast-1c", "ap-southeast-1a", "ap-southeast-1b"]
+		},
+		{
+			"RecommendZones": ["ap-southeast-2b"],
+			"RegionId": "ap-southeast-2",
+			"RegionEndpoint": "eci.ap-southeast-2.aliyuncs.com",
+			"Zones": ["ap-southeast-2b", "ap-southeast-2a"]
+		},
+		{
+			"RecommendZones": ["ap-southeast-3a", "ap-southeast-3b"],
+			"RegionId": "ap-southeast-3",
+			"RegionEndpoint": "eci.ap-southeast-3.aliyuncs.com",
+			"Zones": ["ap-southeast-3b", "ap-southeast-3a"]
+		},
+		{
+			"RecommendZones": [
+				"ap-southeast-5a",
+				"ap-southeast-5c",
+				"ap-southeast-5b"
+			],
+			"RegionId": "ap-southeast-5",
+			"RegionEndpoint": "eci.ap-southeast-5.aliyuncs.com",
+			"Zones": ["ap-southeast-5b", "ap-southeast-5c", "ap-southeast-5a"]
+		},
+		{
+			"RecommendZones": ["ap-northeast-1a", "ap-northeast-1b"],
+			"RegionId": "ap-northeast-1",
+			"RegionEndpoint": "eci.ap-northeast-1.aliyuncs.com",
+			"Zones": ["ap-northeast-1b", "ap-northeast-1a"]
+		},
+		{
+			"RecommendZones": ["eu-central-1a", "eu-central-1b"],
+			"RegionId": "eu-central-1",
+			"RegionEndpoint": "eci.eu-central-1.aliyuncs.com",
+			"Zones": ["eu-central-1a", "eu-central-1b"]
+		},
+		{
+			"RecommendZones": ["eu-west-1b", "eu-west-1a"],
+			"RegionId": "eu-west-1",
+			"RegionEndpoint": "eci.eu-west-1.aliyuncs.com",
+			"Zones": ["eu-west-1a", "eu-west-1b"]
+		},
+		{
+			"RecommendZones": ["us-west-1a"],
+			"RegionId": "us-west-1",
+			"RegionEndpoint": "eci.aliyuncs.com",
+			"Zones": ["us-west-1a", "us-west-1b"]
+		},
+		{
+			"RecommendZones": ["us-east-1a", "us-east-1b"],
+			"RegionId": "us-east-1",
+			"RegionEndpoint": "eci.aliyuncs.com",
+			"Zones": ["us-east-1b", "us-east-1a"]
+		},
+		{
+			"RecommendZones": ["ap-south-1b", "ap-south-1a"],
+			"RegionId": "ap-south-1",
+			"RegionEndpoint": "eci.ap-south-1.aliyuncs.com",
+			"Zones": ["ap-south-1b", "ap-south-1a"]
+		}
+	]
+}

@@ -22,6 +22,29 @@
     "@alicloud/tea-typescript" "^1.7.1"
     "@alicloud/tea-util" "^1.4.0"
 
+"@alicloud/eci20180808@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@alicloud/eci20180808/-/eci20180808-2.0.1.tgz#ac68033459123985d15d7dbd21acd254138d7d03"
+  integrity sha512-ngRy6w0G/cMLwk6FWueKaNB1EsdvAGtJ3jpP9OPE2+8SKzTYWOdEzrCDqx8wH1zDuN0HPvEmr7An89vLeqwtAQ==
+  dependencies:
+    "@alicloud/endpoint-util" "^0.0.1"
+    "@alicloud/openapi-client" "^0.2.1"
+    "@alicloud/tea-typescript" latest
+    "@alicloud/tea-util" "^1.4.0"
+
+"@alicloud/ecs20140526@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@alicloud/ecs20140526/-/ecs20140526-2.1.0.tgz#817fad9ec22a34c50d42bb876916855ce331e699"
+  integrity sha512-wPdnAegNb7nOWtZKiRP9ECEXkSRxrIHbzcipNdcD7ciG+8L/dGdtQaJatPUdYB5G5y7EDEQrRuh1YWINT13GKw==
+  dependencies:
+    "@alicloud/endpoint-util" "^0.0.1"
+    "@alicloud/openapi-client" "^0.3.0"
+    "@alicloud/openapi-util" "^0.2.2"
+    "@alicloud/rpc-client" "^1.3.1"
+    "@alicloud/rpc-util" "^0.1.0"
+    "@alicloud/tea-typescript" latest
+    "@alicloud/tea-util" "^1.4.0"
+
 "@alicloud/endpoint-util@^0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@alicloud/endpoint-util/-/endpoint-util-0.0.1.tgz#b237f5e04e373abb54c42119377b30bd6afb1a7c"
@@ -29,6 +52,16 @@
   dependencies:
     "@alicloud/tea-typescript" "^1.5.1"
     kitx "^2.0.0"
+
+"@alicloud/openapi-client@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@alicloud/openapi-client/-/openapi-client-0.2.1.tgz#ef72f42ab6fa0176c2359af9d136926b39815feb"
+  integrity sha512-QjtnXzjR+fK84rB55T36jHF2xbLYdBkXnsD2IYqYsx6vMeu08ViNNxRTu2N6S+2hUUJDJh2mSTUJ1lOd8Et8UA==
+  dependencies:
+    "@alicloud/credentials" "^2"
+    "@alicloud/openapi-util" "^0.1.3"
+    "@alicloud/tea-typescript" latest
+    "@alicloud/tea-util" "^1.4.0"
 
 "@alicloud/openapi-client@^0.3.0", "@alicloud/openapi-client@^0.3.4", "@alicloud/openapi-client@^0.3.5":
   version "0.3.8"
@@ -40,7 +73,16 @@
     "@alicloud/tea-typescript" "^1.7.1"
     "@alicloud/tea-util" "^1.4.0"
 
-"@alicloud/openapi-util@^0.2.4":
+"@alicloud/openapi-util@^0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@alicloud/openapi-util/-/openapi-util-0.1.3.tgz#b17dbd0d512895c180aa74d55f0fa0176760a36d"
+  integrity sha512-udoNZnjBizSWeHcize6HWPqfYdfHcEx5+G1xTpOPPTIzZaUjX2Qynun7MTLwlxPdY2gyzn5eBAI01p+rHU+bbg==
+  dependencies:
+    "@alicloud/tea-typescript" latest
+    "@alicloud/tea-util" "^1.3.0"
+    kitx "^2.1.0"
+
+"@alicloud/openapi-util@^0.2.2", "@alicloud/openapi-util@^0.2.4":
   version "0.2.9"
   resolved "https://registry.yarnpkg.com/@alicloud/openapi-util/-/openapi-util-0.2.9.tgz#2379cd81f993dcab32066a2b892ddcbdd266d51c"
   integrity sha512-GUEYtX3lDv+WaZoDFCb0h9aZ8+IlajnSAxSHjiITbNtjCpZbA/vfd7Z/ST9YaPoT34nGqDNKiQTjqpLhaKtYBw==
