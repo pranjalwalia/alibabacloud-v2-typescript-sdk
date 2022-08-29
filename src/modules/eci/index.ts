@@ -12,7 +12,7 @@ import {
 	IRestartContainerGroup,
 } from './interfaces';
 
-class Client extends BaseModule {
+class Eci extends BaseModule {
 	private _client: Eci20180808;
 
 	protected _createClient(
@@ -88,4 +88,4 @@ class Client extends BaseModule {
 	}
 }
 
-export default Client;
+export default Eci;
