@@ -7,10 +7,7 @@ import {
 	IRestartContainerGroup,
 } from '../../src/modules/eci/interfaces';
 
-const instance = new AliCloud(
-	'LTAI5tKAb7dymfGxppLeM4Hh',
-	'uexNK17iRIVxJrx7h6cD9nqQF3rnvM'
-);
+const instance = new AliCloud('key', 'secret');
 
 const EciContainerGroupOperations = {
 	createContainerGroup: async (
