@@ -10,7 +10,6 @@
 	},
 	"scripts": {
 		"build": "rm -rf dist && tsc -p ./tsconfig.json",
-		"eci": "ts-node ./examples/eci/index.ts",
 		"fix": "yarn fix:prettier && yarn fix:eslint && yarn typecheck",
 		"fix:eslint": "eslint --fix \"**/*\"",
 		"fix:prettier": "prettier --write \"**/*\"",
